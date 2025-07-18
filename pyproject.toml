@@ -1,0 +1,15 @@
+[project]
+name = "companyresearchtool"
+version = "0.1.0"
+description = "A Simple LLM-Powered Streamlit Web Application which conducts research on any given company"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.28",
+    "langchain-tavily>=0.2.9",
+    "pydantic>=2.11.7",
+    "streamlit>=1.47.0",
+    "watchdog>=6.0.0",
+]
