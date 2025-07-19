@@ -32,7 +32,7 @@ A Streamlit web application that leverages advanced Large Language Models (LLMs)
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Mihai-07/Company-Research-Tool
    cd CompanyResearchTool
    ```
 2. **Install dependencies:**
@@ -52,7 +52,7 @@ tavily = "YOUR_TAVILY_API_KEY"
 
 ### Running the App
 ```bash
-streamlit run streamlit_app.py
+streamlit run Home.py
 ```
 
 ## Usage
@@ -68,7 +68,11 @@ CompanyResearchTool/
 ├── agent/
 │   ├── agent.py        # Agent logic and prompt
 │   └── tools.py        # Internet search tool
-├── streamlit_app.py    # Streamlit web app
+│
+├── pages/
+│   └── About.py        # The About Page
+│
+├── Demo.py             # Streamlit web app
 ├── pyproject.toml      # Project dependencies (.toml file)
 ├── requirements.txt    # Project dependencies (.txt file)
 ├── README.md           # This file
@@ -80,7 +84,9 @@ CompanyResearchTool/
 - [LangChain](https://python.langchain.com/)
 - [langchain-openai](https://github.com/langchain-ai/langchain)
 - [langchain-tavily](https://github.com/langchain-ai/langchain)
-- [Pydantic](https://pydantic.dev/)
+
+### Accessing the App via the Internet
+To safely access the app online, click [CompanyResearchTool](https://mihai-07-company-research-tool.streamlit.app)
 
 ## License
 MIT License. See [LICENSE](LICENSE) for details.
