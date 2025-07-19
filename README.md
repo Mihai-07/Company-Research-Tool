@@ -86,7 +86,7 @@ CompanyResearchTool/
 - [langchain-tavily](https://github.com/langchain-ai/langchain)
 
 ### Accessing the App via the Internet
-To safely access the app online, click [CompanyResearchTool](https://mihai-07-company-research-tool.streamlit.app)
+To safely access the app online, click [CompanyResearchTool](https://mihai-07-companyresearch.streamlit.app)
 
 ## License
 MIT License. See [LICENSE](LICENSE) for details.
