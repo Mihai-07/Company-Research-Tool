@@ -52,7 +52,7 @@ tavily = "YOUR_TAVILY_API_KEY"
 
 ### Running the App
 ```bash
-streamlit run Home.py
+streamlit run Demo.py
 ```
 
 ## Usage
