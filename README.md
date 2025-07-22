@@ -86,9 +86,14 @@ tavily = "YOUR_TAVILY_API_KEY"
 ```
 
 ### Running the App
-```bash
-streamlit run Demo.py
-```
+- **With pip or Conda:**
+  ```bash
+  streamlit run Demo.py
+  ```
+- **With uv:**
+  ```bash
+  uv run streamlit run Demo.py
+  ```
 
 ## Usage
 1. Enter a company name in the input box.
