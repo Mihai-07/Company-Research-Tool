@@ -18,7 +18,7 @@ def call_agent(company: str):
     agent_executor = agent.create_agent_executor(llm=llm)
 
     result = agent_executor.invoke(
-        input={"input": agent.prompt.format_prompt(company=company)}
+        input={"input": agent.prompt.format_prompt(company=company.lower()}
     )
 
     return result["output"]
