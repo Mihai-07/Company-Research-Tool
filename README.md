@@ -62,6 +62,9 @@ streamlit run Demo.py
 
 > **Note:** The information is AI-generated and may not always be accurate. Always verify critical details from official sources.
 
+### Accessing the App via the Internet
+To access the app online, click [CompanyResearchTool](https://mihai-07-companyresearch.streamlit.app)
+
 ## Project Structure
 ```
 CompanyResearchTool/
@@ -84,9 +87,6 @@ CompanyResearchTool/
 - [LangChain](https://python.langchain.com/)
 - [langchain-openai](https://github.com/langchain-ai/langchain)
 - [langchain-tavily](https://github.com/langchain-ai/langchain)
-
-### Accessing the App via the Internet
-To safely access the app online, click [CompanyResearchTool](https://mihai-07-companyresearch.streamlit.app)
 
 ## License
 MIT License. See [LICENSE](LICENSE) for details.
