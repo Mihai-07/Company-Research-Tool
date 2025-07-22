@@ -30,6 +30,10 @@ A Streamlit web application that leverages advanced Large Language Models (LLMs)
 - API keys for [DeepSeek](https://openrouter.ai) and [Tavily](https://tavily.com/)
 
 ### Installation
+
+You can install and run the app using **pip**, **Conda**, or **uv** (a modern Python package manager). Choose one of the following methods:
+
+#### Option 1: Using pip
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Mihai-07/Company-Research-Tool
@@ -38,8 +42,39 @@ A Streamlit web application that leverages advanced Large Language Models (LLMs)
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-   # or, if using uv/pyproject.toml:
-   uv pip install -r pyproject.toml
+   ```
+
+#### Option 2: Using Conda
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mihai-07/Company-Research-Tool
+   cd CompanyResearchTool
+   ```
+2. **Create and activate a new environment:**
+   ```bash
+   conda create -n companyresearch python=3.11
+   conda activate companyresearch
+   ```
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+#### Option 3: Using uv (Recommended)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mihai-07/Company-Research-Tool
+   cd CompanyResearchTool
+   ```
+2. **Initialize uv in the project:**
+   ```bash
+   uv init .
+   ```
+3. **Add dependencies:**
+   ```bash
+   uv add -r requirements.txt
+   # or, if you prefer using pyproject.toml:
+   uv add -r pyproject.toml
    ```
 
 ### Configuration
