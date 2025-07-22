@@ -62,7 +62,7 @@ streamlit run Demo.py
 
 > **Note:** The information is AI-generated and may not always be accurate. Always verify critical details from official sources.
 
-### Accessing the App via the Internet
+## Accessing the App via the Internet
 To access the app online, click [CompanyResearchTool](https://mihai-07-companyresearch.streamlit.app)
 
 ## Project Structure
